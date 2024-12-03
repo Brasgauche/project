@@ -1,0 +1,103 @@
+// Définition de variables
+$primary-color: #007bff
+$secondary-color: #6c757d
+$white-color: #ffffff
+$bg-color: #f8f9fa
+
+// Global Styles
+body
+  font-family: 'Arial', sans-serif
+  background-color: $bg-color
+
+.wrapper
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+
+.navbar
+  background-color: $white-color
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+
+  .navbar-brand
+    font-weight: bold
+    color: $primary-color
+
+  .navbar-toggler-icon
+    background-color: $primary-color
+
+  .nav-link
+    color: $secondary-color
+    &:hover
+      color: $primary-color
+
+// Hero Section
+.hero-section
+  position: relative
+  text-align: center
+  color: $white-color
+
+  .hero-image
+    width: 100%
+    height: auto
+
+  .hero-text
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+  h1, h2
+    margin: 0
+
+  .text-black
+    color: #000
+
+  .text-primary
+    color: $primary-color
+
+// Featured Services
+.featured-services
+  .badge
+    font-size: 1rem
+    text-transform: uppercase
+    padding: 0.5rem 1rem
+
+  h2
+    margin-top: 20px
+    font-size: 2.5rem
+
+  p
+    color: $secondary-color
+
+  .service-card
+    height: 250px
+    background-color: $white-color
+    padding: 20px
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    text-align: center
+
+    i
+      font-size: 3rem
+      color: $primary-color
+
+    h5
+      margin-top: 20px
+      color: $primary-color
+      text-align: left
+
+    p
+      text-align: left
+      color: $secondary-color
+
+// Formulaire Contact
+.contact-form
+  .form-control
+    border-radius: 8px
+
+  .btn-primary
+    background-color: $primary-color
+    border: none
+    padding: 10px
+    border-radius: 8px
+    width: 100%

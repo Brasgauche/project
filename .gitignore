@@ -1,0 +1,14 @@
+# Node.js (si vous utilisez npm)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Systèmes d'exploitation
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Clés SSH ou fichiers sensibles
+*.pem
+*.key
